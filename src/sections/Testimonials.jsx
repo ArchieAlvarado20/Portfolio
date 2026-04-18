@@ -45,7 +45,7 @@ export const Testimonials = () => {
 
   const previous = () => {
     setActiveIdx(
-      (prev) => (prev - 1 + testimonials.length) % testimonials.length
+      (prev) => (prev - 1 + testimonials.length) % testimonials.length,
     );
   };
   return (

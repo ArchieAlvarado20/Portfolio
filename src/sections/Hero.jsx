@@ -14,18 +14,17 @@ const skills = [
   "Next.js",
   "TypeScript",
   "Node.js",
-  "GraphQL",
+  "MySql",
+  "Supabase",
   "PostgreSQL",
-  "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
+  "Laravel",
+  "PHP",
   "Vercel",
   "Tailwind CSS",
+  "Bootsrap",
+  "Javascript",
+  "CSS",
   "Prisma",
-  "Jest",
-  "Cypress",
-  "Figma",
   "Git",
   "GitHub Actions",
 ];
@@ -69,7 +68,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                Fullstack Developer •
               </span>
             </div>
 
@@ -78,16 +77,16 @@ export const Hero = () => {
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
                 Crafting <span className="text-primary glow-text">digital</span>
                 <br />
-                experiences with
+                experiences,
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  precision.
+                  one project at a time.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I'm Archie Alvarado — a developer learning and building with
+                React, Next.js, and TypeScript. I enjoy creating clean and
+                functional web applications.
               </p>
             </div>
 
@@ -106,7 +105,7 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
+                { icon: Github, href: "https://github.com/ArchieAlvarado20" },
                 { icon: Linkedin, href: "#" },
                 { icon: Twitter, href: "#" },
               ].map((social, idx) => (
@@ -114,6 +113,7 @@ export const Hero = () => {
                   key={idx}
                   href={social.href}
                   className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
+                  target="_blank"
                 >
                   {<social.icon className="w-5 h-5" />}
                 </a>
@@ -130,11 +130,11 @@ export const Hero = () => {
               from-primary/30 via-transparent 
               to-primary/10 blur-2xl animate-pulse"
               />
-              <div className="relative glass rounded-3xl p-2 glow-border">
+              <div className="relative bg-transparent rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
+                  src="/freeUp.png"
                   alt="Pedro Machado"
-                  className="w-full aspect-[4/5] object-cover rounded-2xl"
+                  className="w-full aspect-[4/5] object-cover rounded-2xl brightness-65 contrast-125 saturate-90"
                 />
 
                 {/* Floating Badge */}
@@ -148,10 +148,8 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
-                  <div className="text-xs text-muted-foreground">
-                    Years Exp.
-                  </div>
+                  <div className="text-2xl font-bold text-primary">1+</div>
+                  <div className="text-xs text-muted-foreground">Year Exp.</div>
                 </div>
               </div>
             </div>

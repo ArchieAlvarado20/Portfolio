@@ -6,11 +6,11 @@
 
   --color-card: #141a1f;
 
-  --color-primary: #20b2a6;
+  --color-primary: #5e6b3c;
   --color-primary-foreground: #ffffff;
 
   --color-secondary: #1f2830;
-  --color-secondary-foreground: #20b2a6;
+  --color-secondary-foreground: #5e6b3c;
 
   --color-muted: #252e37;
   --color-muted-foreground: #7a8491;
@@ -62,8 +62,8 @@
   }
 
   .glow-border {
-    box-shadow: 0 0 20px
-        color-mix(in srgb, var(--color-primary) 20%, transparent),
+    box-shadow:
+      0 0 20px color-mix(in srgb, var(--color-primary) 20%, transparent),
       inset 0 0 20px color-mix(in srgb, var(--color-primary) 5%, transparent);
   }
 }
@@ -177,8 +177,8 @@
   }
 
   .timeline-glow {
-    box-shadow: 0 0 40px
-        color-mix(in srgb, var(--color-primary) 35%, transparent),
+    box-shadow:
+      0 0 40px color-mix(in srgb, var(--color-primary) 35%, transparent),
       0 0 80px color-mix(in srgb, var(--color-primary) 25%, transparent);
   }
 }
