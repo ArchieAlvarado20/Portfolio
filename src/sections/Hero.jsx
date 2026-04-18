@@ -6,6 +6,7 @@ import {
   Linkedin,
   Twitter,
   Download,
+  Facebook,
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
@@ -106,7 +107,7 @@ export const Hero = () => {
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
                 { icon: Github, href: "https://github.com/ArchieAlvarado20" },
-                { icon: Linkedin, href: "#" },
+                { icon: Facebook, href: "#" },
                 { icon: Twitter, href: "#" },
               ].map((social, idx) => (
                 <a
