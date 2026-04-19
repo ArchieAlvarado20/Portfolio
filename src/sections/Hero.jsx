@@ -81,7 +81,7 @@ export const Hero = () => {
                 experiences,
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  one project at a time.
+                  for every businesses.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
@@ -108,7 +108,7 @@ export const Hero = () => {
               {[
                 { icon: Github, href: "https://github.com/ArchieAlvarado20" },
                 { icon: Facebook, href: "#" },
-                { icon: Twitter, href: "#" },
+                // { icon: Twitter, href: "#" },
               ].map((social, idx) => (
                 <a
                   key={idx}

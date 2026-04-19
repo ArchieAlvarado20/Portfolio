@@ -2,31 +2,32 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Lalatrack",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+      "The ultimate tool for the modern delivery rider. Real-time net profit calculation, fuel loss monitoring, and high-velocity goal tracking in one digital application.",
+    image: "/projects/Picture1.png",
+    tags: ["Nextjs", "React", "Typescript", "NodeJS"],
+    link: "https://lalatrack.vercel.app/",
+    github: "https://github.com/ArchieAlvarado20/Lalatrack",
   },
   {
-    title: "E-Commerce Platform",
+    title: "DOTSPOS Multitenant POS System",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+      "dotsPOS is a modern, multi-tenant Point of Sale (POS) system designed for small and medium-sized businesses. Whether you run a retail shop, a café, or a service-based business, dotsPOS helps you manage sales, inventory, and customers with ease—all in one place.",
+    image: "/projects/Picture2.png",
+    tags: ["Javascript", "PHP", "MySql"],
+    link: "https://dotsbrew.infinityfreeapp.com/public/landing",
+    github:
+      "https://github.com/ArchieAlvarado20/dotsPOS-Multitenant-POS-System-",
   },
   {
-    title: "AI Writing Assistant",
+    title: "F21 CAFE POS SYSTEM",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+      "A custom-built POS system for F21 Cafe that simplifies ordering, tracks sales in real time, and improves overall workflow—making day-to-day operations faster and more organized.",
+    image: "/projects/Picture3.png",
+    tags: ["Javascript", "MySql", "PHP API", "SMS Integration"],
+    link: "https://f21cafe.xo.je",
+    github: "https://github.com/ArchieAlvarado20/f21cafe",
   },
   {
     title: "Project Management Tool",
@@ -89,12 +90,14 @@ export const Projects = () => {
                   <a
                     href={project.link}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
+                    target="_blank"
                   >
                     <ArrowUpRight className="w-5 h-5" />
                   </a>
                   <a
                     href={project.github}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
+                    target="_blank"
                   >
                     <Github className="w-5 h-5" />
                   </a>
@@ -134,10 +137,12 @@ export const Projects = () => {
 
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight className="w-5 h-5" />
-          </AnimatedBorderButton>
+          <a href="https://github.com/ArchieAlvarado20" target="_blank">
+            <AnimatedBorderButton>
+              View All Projects
+              <ArrowUpRight className="w-5 h-5" />
+            </AnimatedBorderButton>
+          </a>
         </div>
       </div>
     </section>
