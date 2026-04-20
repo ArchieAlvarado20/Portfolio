@@ -14,7 +14,7 @@ const experiences = [
     company: "",
     description:
       "Created web applications using PHP and Laravel, focusing on backend fundamentals, database relationships, and building practical, real-world projects.",
-    technologies: ["PHP", "Laravel", "MySQL", "REST API"],
+    technologies: ["PHP", "Laravel", "Javascript", "MySQL", "REST API"],
     current: false,
   },
   // {

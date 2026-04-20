@@ -25,7 +25,7 @@ const projects = [
     description:
       "A custom-built POS system for F21 Cafe that simplifies ordering, tracks sales in real time, and improves overall workflow—making day-to-day operations faster and more organized.",
     image: "/projects/Picture3.png",
-    tags: ["Javascript", "MySql", "PHP API", "SMS Integration"],
+    tags: ["Javascript", "MySql", "Javascript", "PHP API", "SMS Integration"],
     link: "https://f21cafe.xo.je",
     github: "https://github.com/ArchieAlvarado20/f21cafe",
   },

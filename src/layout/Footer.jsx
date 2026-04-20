@@ -19,6 +19,7 @@ const footerLinks = [
   { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
   { href: "#contact", label: "Contact" },
+  { href: "https://ko-fi.com/archie_alvarado", label: "Support my work." },
 ];
 
 export const Footer = () => {
