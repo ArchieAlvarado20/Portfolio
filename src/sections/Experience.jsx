@@ -1,40 +1,40 @@
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+    period: "2025 — Present",
+    role: "Freelance Web Developer (Next.js)",
+    company: "",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+      "Building full-stack web applications using Next.js, handling both frontend and backend logic. Delivering fast, SEO-friendly, and user-focused solutions for various client needs.",
+    technologies: ["React", "TypeScript", "Next.js", "PostgreSQL"],
     current: true,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+    period: "2023-2025",
+    role: "Freelance Web Developer (PHP, Laravel)",
+    company: "",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
+      "Created web applications using PHP and Laravel, focusing on backend fundamentals, database relationships, and building practical, real-world projects.",
+    technologies: ["PHP", "Laravel", "MySQL", "REST API"],
     current: false,
   },
-  {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
-    description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
-    current: false,
-  },
-  {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
-    company: "Self-Employed",
-    description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
-    current: false,
-  },
+  // {
+  //   period: "2019 — 2020",
+  //   role: "Junior Developer",
+  //   company: "StartUp Labs",
+  //   description:
+  //     "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
+  //   technologies: ["React", "Node.js", "MongoDB", "AWS"],
+  //   current: false,
+  // },
+  // {
+  //   period: "2018 — 2019",
+  //   role: "Freelance Developer",
+  //   company: "Self-Employed",
+  //   description:
+  //     "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
+  //   technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+  //   current: false,
+  // },
 ];
 
 export const Experience = () => {
