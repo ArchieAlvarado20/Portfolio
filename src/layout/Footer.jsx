@@ -6,8 +6,12 @@ const socialLinks = [
     href: "https://github.com/ArchieAlvarado20",
     label: "GitHub",
   },
-  { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Twitter, href: "#", label: "Twitter" },
+  {
+    icon: Linkedin,
+    href: "https://www.linkedin.com/in/archie-alvarado-3b0710229/",
+    label: "Facebook",
+  },
+  // { icon: Twitter, href: "#", label: "Twitter" },
 ];
 
 const footerLinks = [
@@ -53,6 +57,7 @@ export const Footer = () => {
               <a
                 key={social.label}
                 href={social.href}
+                target="_blank"
                 aria-label={social.label}
                 className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
               >

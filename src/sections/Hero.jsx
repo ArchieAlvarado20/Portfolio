@@ -31,6 +31,19 @@ const skills = [
 ];
 
 export const Hero = () => {
+  const scrollToContact = () => {
+    const el = document.getElementById("contact");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const handleDownloadCV = () => {
+    const link = document.createElement("a");
+    link.href = "/projects/Archie_Alvarado.pdf";
+    link.download = "Archie_Alvarado.pdf";
+    link.click();
+  };
+
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Bg */}
@@ -93,13 +106,19 @@ export const Hero = () => {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-              <Button size="lg">
+              <Button size="lg" onClick={scrollToContact}>
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton>
-                <Download className="w-5 h-5" />
-                Download CV
-              </AnimatedBorderButton>
+              <a
+                href="/projects/Archie_Alvarado.pdf"
+                download="Archie Alvarado.pdf"
+                target="_blank"
+              >
+                <AnimatedBorderButton>
+                  <Download className="w-5 h-5" />
+                  Download CV
+                </AnimatedBorderButton>
+              </a>
             </div>
 
             {/* Social Links */}
@@ -107,7 +126,10 @@ export const Hero = () => {
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
                 { icon: Github, href: "https://github.com/ArchieAlvarado20" },
-                { icon: Facebook, href: "#" },
+                {
+                  icon: Linkedin,
+                  href: "https://www.linkedin.com/in/archie-alvarado-3b0710229/",
+                },
                 // { icon: Twitter, href: "#" },
               ].map((social, idx) => (
                 <a

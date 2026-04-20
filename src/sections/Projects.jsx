@@ -29,15 +29,15 @@ const projects = [
     link: "https://f21cafe.xo.je",
     github: "https://github.com/ArchieAlvarado20/f21cafe",
   },
-  {
-    title: "Project Management Tool",
-    description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
-  },
+  // {
+  //   title: "Project Management Tool",
+  //   description:
+  //     "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+  //   image: "/projects/project4.png",
+  //   tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+  //   link: "#",
+  //   github: "#",
+  // },
 ];
 
 export const Projects = () => {
