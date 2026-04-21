@@ -228,7 +228,7 @@ export const Contact = () => {
                       <div className="text-sm text-muted-foreground">
                         {item.label}
                       </div>
-                      <div className="font-medium">{item.value}</div>
+                      <div className="font-medium break-all">{item.value}</div>
                     </div>
                   </a>
                 ))}

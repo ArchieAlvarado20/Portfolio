@@ -114,7 +114,7 @@ export const Hero = () => {
                 download="Archie Alvarado.pdf"
                 target="_blank"
               >
-                <AnimatedBorderButton>
+                <AnimatedBorderButton onClick={handleDownloadCV}>
                   <Download className="w-5 h-5" />
                   Download CV
                 </AnimatedBorderButton>
